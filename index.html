@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Indian Desi Tools</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.indiandesitools.com">IndianDesiTools</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="https://www.indiandesitools.com">Home</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a target="_blank" href="https://www.youtube.com/channel/UCR6d0EiC3G4WA8-Rqji6a8g"
+              ><span class="glyphicon glyphicon-user"></span>Youtube Channel</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.codingshiksha.com"
+              ><span class="glyphicon glyphicon-log-in"></span>Offical Blog</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="text-center">Youtube Video Downloader</h1>
+        <form method="get" action="/download">
+          <div class="form-group">
+            <label for="">Video URL:</label>
+            <input
+              class="form-control"
+              type="text"
+              name="url"
+              id="url"
+              required
+              placeholder="Youtube URL"
+            />
+          </div>
+          <div class="form-group">
+            <label for="sel1">Select Format:</label>
+            <select class="form-control" name="format">
+              <option value="mp4">mp4</option>
+              <option value="mp3">mp3</option>
+              <option value="flv">flv</option>
+              <option value="mkv">mkv</option>
+              <option value="webm">webm</option>
+              <option value="avi">avi</option>
+              <option value="mov">mov</option>
+              <option value="m4p">m4p</option>
+              <option value="m4v">m4v</option>
+              <option value="mpg">mpg</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-danger btn-block">Download</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script>
+     
+  </script>
+</html>
